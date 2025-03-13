@@ -1,0 +1,777 @@
+/* roboto-200 - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 200; unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    src: url('/web/fonts/roboto-v47-latin-200.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  
+  /* roboto-regular - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400; unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    src: url('/web/fonts/roboto-v47-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  
+  /* roboto-900 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    src: url('/web/fonts/roboto-v47-latin-900.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }/* oswald-200 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 200;  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    src: url('/web/fonts/oswald-v53-latin-200.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  
+  /* oswald-regular - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    src: url('/web/fonts/oswald-v53-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  
+  /* oswald-700 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 700;  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    src: url('/web/fonts/oswald-v53-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }/* ubuntu-300 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    src: url('/web/fonts/ubuntu-v20-latin-300.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  
+  /* ubuntu-regular - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    src: url('/web/fonts/ubuntu-v20-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  
+  /* ubuntu-700 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    src: url('/web/fonts/ubuntu-v20-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }body html{
+      overflow:hidden;
+      display: flex;
+      flex-wrap:wrap;
+      align-content: center;
+      width: 100vw;
+      height: 100vh;
+      font-family: Ubuntu, serif;
+      font-weight: 200;
+  }#backG{
+    
+    mix-blend-mode:normal;
+    background-color: #fff0;
+    background-image: linear-gradient(#ffffffc2,#ffffffc2,#8dffd3c2,#00ff9dc2,#00ff9dc2 );
+    background-position: 0;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    position:fixed;
+    left: 0;
+    top: 0;
+    
+    width: 100vw;
+    height: 100vh;
+    font-weight: 300;
+    display:block;
+    overflow:visible;
+    z-index: 0;
+}.container-fluid{
+    font-family: Oswald, serif;
+    font-weight: 200;
+    font-size: 1.3rem;overflow:hidden;
+}.nav-link:hover{
+    color: rgb(0, 255, 157);
+}.nav-link{
+    z-index: 10;
+}.nav-link::after{
+    content: "";
+    position: absolute;
+    height: 4px;
+    width: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(0, 255, 157);
+    transition: all 0.3s ease;overflow:hidden;
+    border-radius: 10px;
+}.nav-link:hover::after{
+    width: 63.17%;overflow:hidden;
+}#lgIn::after{
+    background-color: rgb(200, 255, 0);
+    border-radius: 10px;
+}#lgIn:hover{
+    color: rgb(200, 255, 0);
+}#sgnUp::after{
+    background-color: rgb(255, 123, 0);
+    border-radius: 10px;
+}#sgnUp:hover{
+    color: rgb(255, 123, 0);
+}.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;overflow:hidden;
+    box-shadow: none;
+}#init{
+    font-family: Oswald, serif;
+    font-weight: 200;
+    font-size: 2.5rem;overflow:hidden; 
+    z-index: 1;
+}#initts{
+    height: 90px;
+    position: absolute;
+    left: 2.5%;
+    top: 0;
+    z-index: 1;
+}#hero {
+  
+  position: relative;
+  margin-top: 2%;
+  text-align: center;
+  z-index: 5;overflow:hidden;
+  width: 50%;
+  
+  
+  border-radius: 25px;
+  transition: 1s ease-in-out;
+}#heroG {
+  
+  position: relative;
+  margin-top: 2%;
+  text-align: left;
+  z-index: 5;overflow:hidden;
+  width: 50%;
+  gap: 10px;
+  padding:2em;
+  transform: scale(.95);
+  padding-bottom: 1em;
+  padding-top: 1em;
+  background-color: #ffffff;
+  mix-blend-mode:normal;
+  border-radius: 25px;
+  transition: 1s ease-in-out;
+}#heroG:hover {
+
+  border:1px solid rgb(255, 255, 255);
+  /* transform: scale(1); */
+  mix-blend-mode:normal;
+  transition: 1s ease-in-out;
+}#heross {
+  
+  position: relative;
+  margin-top: 2%;
+ 
+  z-index: 5;overflow:hidden;
+  
+  gap: 10px;
+  
+  transform: scale(.95);
+  
+  background-color: #ffffff;
+  mix-blend-mode:normal;
+  border-radius: 25px;
+  transition: 1s ease-in-out;
+} #imgCarrt{
+  height: 15rem;
+  width:  auto;
+  border-radius: 4px;
+  overflow:hidden;
+  opacity: 100%;
+  -webkit-transition: transform 1s ease;
+  transition: transform 1s ease;
+} #imgCarrt:hover{
+  /* transform: scale(0.9); */
+  -webkit-transition: transform 1s ease;
+  transition: transform 1s ease;
+}h1{
+    color: rgb(99, 99, 99);
+    font-family: Oswald, serif;
+    font-weight: 200;
+    font-size: 1.3rem;
+    text-decoration: none;overflow:hidden;
+}h2{
+    color: rgb(0, 0, 0);
+    font-family: Oswald, serif;
+    font-weight: 200;
+    font-size: 5rem;
+    text-decoration: none;overflow:hidden;
+}h3{
+    color: rgb(0, 0, 0);
+    font-family: Oswald, serif;
+    font-weight: 200;
+    font-size: 1.3rem;
+    text-decoration: none;overflow:hidden;
+}p{
+    font-size: .8rem;
+    color: rgb(0, 0, 0);
+    text-align: left;
+    height: 30%;overflow:hidden;
+}h6{
+    font-family: Ubuntu, serif;
+    font-weight: 200;
+    font-size: .7rem;
+    color: rgb(0, 0, 0);
+    text-align: left;
+    height: 30%;overflow:hidden;
+}hr{
+    color: rgb(0, 0, 0);
+}#carouselExampleCaptions h1{
+    color: rgb(255, 255, 255);
+      font-family: Oswald, serif;
+      font-weight: 200;
+      font-size: 1.3rem;
+      text-decoration: none;overflow:hidden;
+  } #carouselExampleCaptions h2{
+    color: rgb(255, 255, 255);
+    font-family: Oswald, serif;
+    font-weight: 200;
+    font-size: 5rem;
+    text-decoration: none;overflow:hidden;
+  } #carouselExampleCaptions p{
+    font-size: .8rem;
+      color: rgb(255, 255, 255);
+      text-align: center;
+      z-index: 5;
+      height: 30%;
+      width: 100%;overflow:hidden;
+  } #imgCar{
+    width: AUTO;
+    height: 20rem;
+    border-radius: 4px;
+    overflow:hidden;
+    opacity: 100%;
+    -webkit-transition: transform 1s ease;
+    transition: transform 1s ease;
+} #imgCar:hover{
+    transform: scale(0.9);
+    -webkit-transition: transform 1s ease;
+    transition: transform 1s ease;
+}.carousel-caption h1{
+    color: rgb(255, 255, 255);
+      font-family: Oswald, serif;
+      font-weight: 200;
+      font-size: 1.3rem;
+      text-decoration: none;overflow:hidden;
+  } .carousel-caption h2{
+    color: rgb(255, 255, 255);
+    font-family: Oswald, serif;
+    font-weight: 200;
+    font-size: 5rem;
+    text-decoration: none;overflow:hidden;
+  } .carousel-caption p{
+    font-size: .8rem;
+      color: rgb(255, 255, 255);
+      text-align: center;
+      z-index: 5;
+      height: 30%;
+      width: 100%;overflow:hidden;
+  } #hero-0 {
+    position: relative;
+    margin-top: 2%;
+    text-align: center;
+    z-index: 5;
+    height: 60%;
+    width: 100%;overflow:hidden;
+  }#hero-1 {
+    position: relative;
+    margin-top: 2%;
+    text-align: center;
+    z-index: 5;
+    height: 60%;
+    width: 100%;overflow:hidden;
+  }#imgCart{
+    width: AUTO;
+    height: 20rem;
+    border-radius: 4px;
+    overflow:hidden;
+    opacity: 100%;
+    -webkit-transition: transform 1s ease;
+    transition: transform 1s ease;
+
+}#imgCart:hover{
+    transform: scale(.9);
+    -webkit-transition: transform 1s ease;
+    transition: transform 1s ease;
+}#imgCarTT{
+  width: AUTO;
+  height: 220px;
+  border-radius: 4px;
+  overflow:hidden;
+  opacity: 100%;
+  -webkit-transition: transform 1s ease;
+  transition: transform 1s ease;
+
+}#imgCarTTs{
+  width: AUTO;
+  
+  border-radius: 25px;
+  
+  height:15rem;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+}label{
+  font-size: .8rem;
+  color: rgb(0, 0, 0);
+  text-align: left;
+  font-family: Ubuntu, serif;
+  font-weight: 300;
+  z-index: 10;
+}input{
+  height: 2rem;
+  font-family: Ubuntu, serif;
+  font-weight: 300;
+  outline: none;
+  padding: 1em;
+  z-index: 10;
+  
+  transition: .1s ease-in-out;
+}input:focus{
+  background-color: white;
+  transform: scale(.93);
+  transition: .1s ease-in-out;
+  box-shadow: 13px 13px 100px #969696,
+             -13px -13px 100px #ffffff;
+}#txtNam{
+font-size: .8rem;font-family: Ubuntu, serif;
+font-weight: 300;
+z-index: 10;
+}#txtMail{
+  font-size: .8rem;font-family: Ubuntu, serif;
+  font-weight: 300;
+  z-index: 10;
+}#txtAge{
+    font-size: .8rem;font-family: Ubuntu, serif;
+    font-weight: 300;
+    z-index: 10;
+}#txtUsr{
+  font-size: .8rem;font-family: Ubuntu, serif;
+  font-weight: 300;
+  z-index: 10;
+}#txtPass{
+font-size: .8rem;font-family: Ubuntu, serif;
+font-weight: 300;
+z-index: 10;
+}#txtCtry{
+font-size: .8rem;font-family: Ubuntu, serif;
+font-weight: 300;
+z-index: 10;
+}#txtMesssage{
+font-size: .8rem;font-family: Ubuntu, serif;
+font-weight: 300;
+z-index: 10;
+}#txtMesssage,input #txtMesssage{
+  overflow: hidden;
+  font-size: .8rem;
+  z-index: 10;
+  }#subtitle{
+      color: rgb(0, 0, 0);
+      font-family: Oswald, serif;
+      font-weight: 200;
+      width: 100%;
+      font-size: 1.7rem;
+      text-align: center;
+      text-decoration: none;overflow:hidden;
+      z-index: 10;
+  }#txtM{
+      font-size: .75Rem;
+      font-family: Ubuntu, serif;
+      font-weight: 300;
+      color: rgb(0, 0, 0);
+      text-align: center;
+      z-index: 5;overflow:hidden;
+      z-index: 10;
+      
+  }#txtmin{
+      color: rgb(122, 122, 122);
+      overflow:hidden;
+      z-index: 10;
+  }#formula{
+      
+      text-align: left;
+      overflow:hidden;
+      z-index: 10;
+  }#fPass{
+    font-size: .7rem;
+    font-style: italic;
+    cursor: pointer;
+    z-index: 10;
+  }#heroes {
+        
+    position: relative;
+    margin-top: 2%;
+    text-align: left;
+    z-index: 5;overflow:hidden;
+    width: 40%;
+    gap: 10px;
+    padding:2em;
+    padding-bottom: 1em;
+    padding-top: 1em;
+    background-color: #ffffff;
+    mix-blend-mode:normal;
+    transform: scale(.95);
+    border-radius: 25px;
+    transition: 1s ease-in-out;
+  }#heroes:hover {
+  
+    border:1px solid rgb(255, 255, 255);
+    /* transform: scale(1); */
+    mix-blend-mode:normal;
+    transition: 1s ease-in-out;
+  }#heroes input,#heroes textarea{
+    box-shadow: inset 1px 1px 2px rgba(0,0,0,0.3);
+    /* border: 1px #000000;
+    outline: 1px #000000; */
+  }#hai5 {
+        
+    position: relative;
+    margin-top: 2%;
+    text-align: left;
+    z-index: 5;overflow:hidden;
+    width: 40%;
+    gap: 10px;
+    padding:2em;
+    transform: scale(.95);
+    padding-bottom: 1em;
+    padding-top: 1em;
+    background-color: #ffffff;
+    mix-blend-mode:normal;
+    border-radius: 25px;
+    transition: 1s ease-in-out;
+  }#hai5:hover {
+  
+    border:1px solid rgb(255, 255, 255);
+    /* transform: scale(1); */
+    mix-blend-mode:normal;
+    transition: 1s ease-in-out;
+  }#hai5 input,#hai5 textarea{
+    box-shadow: inset 1px 1px 2px rgba(0,0,0,0.3);font-family: Ubuntu, serif;
+    font-weight: 300;
+    /* border: 1px #000000;
+    outline: 1px #000000; */
+  }#heross input,
+  #heross #txtNam,
+  #heross #txtMail,
+  #heross #txtAge,
+  #heross #txtUsr,
+  #heross #txtPass{
+    font-size: .8rem;font-family: Ubuntu, serif;
+    font-weight: 300;
+    z-index: 10;
+    box-shadow: inset 1px 1px 2px rgba(0,0,0,0.3);
+    transition: .1s ease-in-out;
+    }#heross input:focus,
+    #heross #txtNam:focus,
+    #heross #txtMail:focus,
+    #heross #txtAge:focus,
+    #heross #txtUsr:focus,
+    #heross #txtPass:focus{
+      background-color: white;font-family: Ubuntu, serif;
+      font-weight: 300;
+      transform: scale(.93);
+      transition: .1s ease-in-out;
+      box-shadow: 13px 13px 100px #969696,
+             -13px -13px 100px #ffffff;
+      }.btn,#hero .btn {
+        font-family: Ubuntu, serif;
+        font-weight: 200;
+        font-size: .7rem;
+        color: rgb(0, 0, 0);
+        border-radius: 5px;
+        border-width: 1px;
+        border-color: rgb(0, 0, 0);
+        text-decoration: none;overflow:hidden;
+        /* box-shadow: inset 2px 5px 10px rgba(0,0,0,0.3); */
+        transition: .1s ease-in-out;
+        z-index: 10;
+      }.btn:hover,#hero .btn:hover {
+        
+        color: rgb(148, 148, 148);
+        border-radius: 5px;
+        border-width: 1px;
+        border-color: rgb(148, 148, 148);
+        box-shadow: inherit;
+        text-decoration: none;overflow:hidden;
+        transition: .1s ease-in-out;
+      } #delX{
+        text-align: center;
+        align-items: center;
+        font-size: .35rem;
+        box-shadow: none;
+        transition: 300ms ease-in-out;
+        z-index: 10;
+      }#delX:focus{
+        transform: scale(.9);
+        transition: .1s ease-in-out;
+      }#x1{
+        text-align: center;
+        align-items: center;
+        font-size: .35rem;
+        box-shadow: none;
+        transition: 300ms ease-in-out;
+        z-index: 10;
+      }#x1:focus{
+        transform: scale(.9);
+        transition: .1s ease-in-out;
+      }#x2{
+        text-align: center;
+        align-items: center;
+        font-size: .35rem;
+        box-shadow: none;
+        transition: 300ms ease-in-out;
+        z-index: 10;
+      }#x2:focus{
+        transform: scale(.9);
+        transition: .1s ease-in-out;
+      }#x3{
+        text-align: center;
+        align-items: center;
+        font-size: .35rem;
+        box-shadow: none;
+        transition: 300ms ease-in-out;
+        z-index: 10;
+      }#x3:focus{
+        transform: scale(.9);
+        transition: .1s ease-in-out;
+      }#x4{
+        text-align: center;
+        align-items: center;
+        font-size: .35rem;
+        box-shadow: none;
+        transition: 300ms ease-in-out;
+        z-index: 10;
+      }#x4:focus{
+        transform: scale(.9);
+        transition: .1s ease-in-out;
+      }#x5{
+        text-align: center;
+        align-items: center;
+        font-size: .35rem;
+        box-shadow: none;
+        transition: 300ms ease-in-out;
+        z-index: 10;
+      }#x5:focus{
+        transform: scale(.9);
+        transition: .1s ease-in-out;
+      }#x6{
+        text-align: center;
+        align-items: center;
+        font-size: .35rem;
+        box-shadow: none;
+        transition: 300ms ease-in-out;
+        z-index: 10;
+      }#x6:focus{
+        transform: scale(.9);
+        transition: .1s ease-in-out;
+      }
+
+
+
+
+
+/* Firefox (uncomment to work in Firefox, although other properties will not work!)  */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #00ff9dc2  #ffffff;
+
+}/* Chrome, Edge and Safari */
+*::-webkit-scrollbar {
+    height: 10px;
+    width: 10px;
+  }
+  *::-webkit-scrollbar-track {
+    border-radius: 5px;
+    background-color: #DFE9EB;
+  }
+  
+  *::-webkit-scrollbar-track:hover {
+    background-color: #B8C0C2;
+  }
+  
+  *::-webkit-scrollbar-track:active {
+    background-color: #B8C0C2;
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background-color: #00ff9dc2
+  }
+  
+  *::-webkit-scrollbar-thumb:hover {
+    background-color: #00ff9dc2
+  }
+  
+  *::-webkit-scrollbar-thumb:active {
+    background-color: #00ff9dc2
+  }
+  
+
+
+
+/* width
+ html ::-webkit-scrollbar,html ::-webkit-scrollbar-button {
+  width: 5px;
+}
+
+Track 
+::-webkit-scrollbar-track {
+  background: #000000;
+}
+
+Handle 
+::-webkit-scrollbar-thumb {
+  background: #ff0000;
+}
+
+ Handle on hover 
+::-webkit-scrollbar-thumb:hover {
+  background: #b3ff00;
+} */
+
+
+/* From Uiverse.io by boryanakrasteva */ 
+@-webkit-keyframes honeycomb {
+  0%,
+  20%,
+  80%,
+  100% {
+    opacity: 0;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  }
+
+  30%,
+  70% {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+@keyframes honeycomb {
+  0%,
+  20%,
+  80%,
+  100% {
+    opacity: 0;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  }
+
+  30%,
+  70% {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+.honeycomb {
+  height: 24px;
+  position: fixed;
+  top:45vh;
+  left:49vw;
+  width: 24px;
+  z-index: 1000;
+}
+
+.honeycomb div {
+  -webkit-animation: honeycomb 2.1s infinite backwards;
+  animation: honeycomb 2.1s infinite backwards;
+  background: #03ff64;
+  height: 12px;
+  margin-top: 6px;
+  position: absolute;
+  width: 24px;
+}
+
+.honeycomb div:after, .honeycomb div:before {
+  content: '';
+  border-left: 12px solid transparent;
+  border-right: 12px solid transparent;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+.honeycomb div:after {
+  top: -6px;
+  border-bottom: 6px solid #03ff64;
+}
+
+.honeycomb div:before {
+  bottom: -6px;
+  border-top: 6px solid #03ff64;
+}
+
+.honeycomb div:nth-child(1) {
+  -webkit-animation-delay: 0s;
+  animation-delay: 0s;
+  left: -28px;
+  top: 0;
+}
+
+.honeycomb div:nth-child(2) {
+  -webkit-animation-delay: 0.1s;
+  animation-delay: 0.1s;
+  left: -14px;
+  top: 22px;
+}
+
+.honeycomb div:nth-child(3) {
+  -webkit-animation-delay: 0.2s;
+  animation-delay: 0.2s;
+  left: 14px;
+  top: 22px;
+}
+
+.honeycomb div:nth-child(4) {
+  -webkit-animation-delay: 0.3s;
+  animation-delay: 0.3s;
+  left: 28px;
+  top: 0;
+}
+
+.honeycomb div:nth-child(5) {
+  -webkit-animation-delay: 0.4s;
+  animation-delay: 0.4s;
+  left: 14px;
+  top: -22px;
+}
+
+.honeycomb div:nth-child(6) {
+  -webkit-animation-delay: 0.5s;
+  animation-delay: 0.5s;
+  left: -14px;
+  top: -22px;
+}
+
+.honeycomb div:nth-child(7) {
+  -webkit-animation-delay: 0.6s;
+  animation-delay: 0.6s;
+  left: 0;
+  top: 0;
+}
